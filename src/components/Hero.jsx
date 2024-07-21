@@ -17,17 +17,17 @@ const Hero = () => {
           max-w-7xl mx-auto flex flex-row items-start
           justify-between gap-3`}>
           <div className="flex flex-col justify-center items-center mt-5 ml-3">
-            <div className="w-5 h-5 rounded-full bg-[#0a0a0a] sm:hidden" />
-            <div className="w-1 sm:h-80 h-40 bw-gradient sm:hidden" />
+            <div className="w-5 h-5 rounded-full bg-[#659483] sm:hidden" />
+            <div className="w-1 sm:h-80 h-40  sm:hidden" />
           </div>
 
           <div>
             <h1
-              className={`${styles.heroHeadText} text-eerieBlack font-poppins uppercase`}>
+              className={`${styles.heroHeadText} text-eerieBlack font-inter uppercase`}>
               Daniel "Dio" Harris{' '}
               <span
-                className="sm:text-battleGray sm:text-[90px] 
-                text-eerieBlack text-[50px] font-mova
+                className="sm:text-battleGray sm:text-[50px] 
+                text-eerieBlack text-[25px] font-mova
                 font-extrabold uppercase">
                 Thank you for stopping by!
               </span>
