@@ -7,20 +7,7 @@ import { shaq, bwmap, worldmap } from '../assets';
 const Hero = () => {
   return (
     <>
-      <div className="absolute top-0 left-0 z-0 h-[100vh] w-screen">
-        <img
-          src={bwmap}
-          alt="world map"
-          className="w-full h-full sm:block hidden object-cover"
-        />
-      </div>
-      <div className="absolute top-0 left-0 z-0 h-[100vh] w-screen">
-        <img
-          src={worldmap}
-          alt="world map"
-          className="w-full h-full sm:hidden block object-cover"
-        />
-      </div>
+      
       <section
         className="relative flex sm:flex-row flex-col w-full h-screen mx-auto 
         sm:bg-hero bg-hero-mobile overflow-hidden">
@@ -37,12 +24,12 @@ const Hero = () => {
           <div>
             <h1
               className={`${styles.heroHeadText} text-eerieBlack font-poppins uppercase`}>
-              Daniel says{' '}
+              Daniel "Dio" Harris{' '}
               <span
                 className="sm:text-battleGray sm:text-[90px] 
                 text-eerieBlack text-[50px] font-mova
                 font-extrabold uppercase">
-                hello
+                Thank you for stopping by!
               </span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
