@@ -123,11 +123,11 @@
 }
 
 .card-gradient {
-  background: rgb(244, 244, 246);
+  background: rgb(128, 185, 157);
   background: linear-gradient(
     158deg,
-    rgba(153, 153, 161, 1) 25%,
-    rgba(153, 153, 161, 1) 100%
+    rgb(148, 238, 223) 25%,
+    rgb(129, 185, 168) 100%
   );
 }
 
@@ -146,7 +146,7 @@
 @keyframes mulShdSpin {
   0%,
   100% {
-    box-shadow: 0em -2.6em 0em 0em #ffffff,
+    box-shadow: 0em -2.6em 0em 0em #d8fc9f,
       1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2),
       2.5em 0em 0 0em rgba(255, 255, 255, 0.2),
       1.75em 1.75em 0 0em rgba(255, 255, 255, 0.2),
@@ -156,7 +156,7 @@
       -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.7);
   }
   12.5% {
-    box-shadow: 0em -2.6em 0em 0em rgba(255, 255, 255, 0.7),
+    box-shadow: 0em -2.6em 0em 0em rgba(253, 249, 183, 0.7),
       1.8em -1.8em 0 0em #ffffff, 2.5em 0em 0 0em rgba(255, 255, 255, 0.2),
       1.75em 1.75em 0 0em rgba(255, 255, 255, 0.2),
       0em 2.5em 0 0em rgba(255, 255, 255, 0.2),
